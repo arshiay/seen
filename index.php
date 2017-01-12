@@ -7,9 +7,9 @@
  */
 
 
-define('API_KEY','XXX:XXX');
-$admin = "Admin ID";
-$channeluse = "Channel Username";
+define('API_KEY','227732781:AAHvAwHQ6J04Cnwlp2ZPHYyATJrLFdMuJhE');
+$admin = "225987393";
+$channeluse = "@ios_ir";
 
 function bridge($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
